@@ -34,13 +34,13 @@
           'fallback_cb'     => '__return_false',
           'items_wrap'      => '<ul id="%1$s" class="navbar-nav mr-auto mt-2 mt-lg-0 %2$s">%3$s</ul>',
           'depth'           => 2,
-          'walker'          => new b4st_walker_nav_menu()
+          'walker'          => new mg24_walker_nav_menu()
         ) );
       ?>
 
       <form class="form-inline mx-0 ml-auto" role="search" method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
         <input class="form-control mr-sm-1" type="text" value="<?php echo get_search_query(); ?>" placeholder="Search..." name="s" id="s">
-        <button type="submit" id="searchsubmit" value="<?php esc_attr_x('Search', 'b4st') ?>" class="btn btn-outline-secondary my-2 my-sm-0">
+        <button type="submit" id="searchsubmit" value="<?php esc_attr_x('Search', 'mg24') ?>" class="btn btn-outline-secondary my-2 my-sm-0">
           <i class="fas fa-search"></i>
         </button>
       </form>

@@ -7,8 +7,8 @@
       <div id="content" role="main">
         <br>
         <div class="alert alert-warning">
-          <h1><i class="glyphicon glyphicon-warning-sign"></i> <?php _e('Error', 'b4st'); ?> 404</h1>
-          <p><?php _e('The page you were looking for does not exist.', 'b4st'); ?></p>
+          <h1><i class="glyphicon glyphicon-warning-sign"></i> <?php _e('Error', 'mg24'); ?> 404</h1>
+          <p><?php _e('The page you were looking for does not exist.', 'mg24'); ?></p>
         </div>
       </div><!-- /#content -->
     </div>
